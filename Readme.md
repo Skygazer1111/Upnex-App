@@ -136,6 +136,8 @@ sql/                         # SQL migration scripts (executed on startup)
 Schema is created/updated on startup. The application runs the numbered SQL scripts in `/sql` and may load embedded resources from `src/main/resources/db/`.
 
 - Example migration scripts:
+
+
   - `001_create_users_table.sql`
   - `002_create_skills_table.sql` (legacy)
   - `003_create_subjects_table.sql`
@@ -246,3 +248,4 @@ If youâ€™re setting this up on Windows PowerShell, the commands above are copyâ€
 - Java style:
   - Prefer meaningful names, avoid long methods, keep Swing EDT rules in mind.
   - Use `final` for fields where practical, and encapsulate JDBC access in repositories.
+Done.
